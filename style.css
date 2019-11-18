@@ -1,0 +1,91 @@
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between
+}
+
+#menuBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content:space-around;
+    width: 99vw;
+    height: 5vh;
+    
+    background-color:turquoise;
+    border:solid turquoise 2px;
+    margin-right:10px;
+    margin-left:-3px;
+    
+}
+#name{
+    margin-right: 65vw;
+    display:flex;
+    align-items: center;
+    
+    
+    font-size: 20px;
+    color: white;
+    
+}
+
+#button1{
+    background-color: lightslategray;
+    color: white;
+}
+#button2{
+    background-color: lightslategray;
+    color: white;
+}
+#button3{
+    background-color: lightslategray;
+    color: white;
+}
+#button4{
+    background-color: lightslategray;
+    color: white;
+}
+#button5{
+    background-color: lightslategray;
+    color: white;
+}
+
+#img-wrapper{
+    float:right;
+    display:flex;
+    justify-content: flex-end;
+    margin-right:2vw;
+    margin-top:2vh;
+    width:50vw;
+    height:450px;
+    background-color: grey;
+    border: solid turquoise 2px;
+    
+}
+
+img{
+    border:solid turquoise 2px;
+    display:flex;
+    align-items: flex-end;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    width: 300px;
+    height:400px;
+    
+
+}
+#shortBio{
+    border: white solid 2px;
+    color: white;
+    font-size: 20px;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    height: 400px;
+    width:370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
