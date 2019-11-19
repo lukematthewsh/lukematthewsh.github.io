@@ -53,15 +53,19 @@
 }
 
 #img-wrapper{
+   
+    align-content: flex-start;
     float:right;
     display:flex;
     justify-content: flex-end;
     margin-right:2vw;
-    margin-top:2vh;
+    margin-top:-84vh;
     width:50vw;
     height:450px;
-    background-color: grey;
+    background-color:rgba(169,169,169,.7) ;
     border: solid turquoise 2px;
+    
+     
     
 }
 
@@ -74,9 +78,11 @@ img{
     width: 300px;
     height:400px;
     
+    
 
 }
 #shortBio{
+    text-align: center;
     border: white solid 2px;
     color: white;
     font-size: 20px;
@@ -85,7 +91,27 @@ img{
     margin-left: 2vw;
     height: 400px;
     width:370px;
-    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+#container2{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    width: 40vw;
+    height: 700px;
+   
+    
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 2%;
+    line-height: 550px
 }
