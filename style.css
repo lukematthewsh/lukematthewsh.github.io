@@ -11,17 +11,18 @@
     flex-direction: row;
     justify-content: flex-end;
     align-content:space-around;
-    width: 99vw;
+    width: 100vw;
     height: 5vh;
     
     background-color:turquoise;
     border:solid turquoise 2px;
     margin-right:10px;
     margin-left:-3px;
+    opacity: .9;
     
 }
 #name{
-    margin-right: 65vw;
+    margin-right: 68vw;
     display:flex;
     align-items: center;
     
@@ -30,28 +31,72 @@
     color: white;
     
 }
+#button1:hover{
+    background-color: white;
+    color: black;
+}
+#button2:hover{
+    background-color: white;
+    color:  black;
+}
+#button3:hover{
+    background-color: white;
+    color: black;
+}
+#button5:hover{
+    background-color: white;
+    color: black;
+}
+#button1:active{
+    background-color: black;
+    color: turquoise;
+}
+#button2:active{
+    background-color: black;
+    color:  turquoise;
+}
+#button3:active{
+    background-color: black;
+    color: turquoise;
+}
+#button5:active{
+    background-color: black;
+    color: turquoise;
+}   
+
 
 #button1{
+    height:5vh;
+    width: 4vw;
+    margin-right:3px;
     background-color: lightslategray;
     color: white;
+    transition: .2s;
 }
 #button2{
+    height:5vh;
+    width: 4vw;
+    margin-right:3px;
     background-color: lightslategray;
     color: white;
+    transition: .2s;
 }
 #button3{
+    height:5vh;
+    width: 6vw;
+    margin-right:3px;
     background-color: lightslategray;
     color: white;
-}
-#button4{
-    background-color: lightslategray;
-    color: white;
+    transition: .2s;
 }
 #button5{
+    height:5vh;
+    width: 7vw;
+    margin-right:3px;
     background-color: lightslategray;
     color: white;
+    transition: .2s;
 }
-
 #img-wrapper{
    
     align-content: flex-start;
@@ -59,7 +104,6 @@
     display:flex;
     justify-content: flex-end;
     margin-right:2vw;
-    margin-top:-84vh;
     width:50vw;
     height:450px;
     background-color:rgba(169,169,169,.7) ;
@@ -68,7 +112,6 @@
      
     
 }
-
 img{
     border:solid turquoise 2px;
     display:flex;
@@ -96,22 +139,35 @@ img{
     flex-direction: row;
     justify-content: flex-start;
 }
+.outerContainer{
+display: grid;
+width: 600px;
+height: auto;
+grid-template-columns: 40w ;
+grid-template-rows: 450px;
+grid-gap: 1rem;
+grid-template-areas: 
 
-#container2{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-right: 2vw;
-    margin-left: 2vw;
-    margin-top: 5vh;
-    width: 40vw;
-    height: 700px;
-   
-    
-    font-size: 40px;
-    color: white;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 2%;
-    line-height: 550px
+"   .  "
+"   .  "
+"notsosure";
+}
+.info{
+    grid-area: info;
+}
+.info{
+    position:absolute;
+    bottom:1px;
+    width:100vw;
+    font-size: 20px;
+    background-color: turquoise;
+    color:black;
+    opacity: .7
+}
+
+.notsosure{
+  margin-left: 25px;
+  background-color: rgba(169,169,169,.7) ;
+  border: solid turquoise 2px;
+  opacity: .7;
 }

@@ -9,15 +9,17 @@
     <title>Luke Matthews</title>
 </head>
 
-<body style="background-image:url('UNADJUSTEDNONRAW_thumb_9.jpg');" linear-gradient(230deg)>
+<body style="background-image:url('IMG_6263.jpg');
+background-repeat: no-repeat;
+background-size: 150%;" >
 
     <div id=container>
         <div id='menuBar'>
             <p id='name'> Luke Matthews</p>
-            <button id='button1' onclick="goToHome()">Home</button>
-            <button id='button2' onclick="goToRes()">Resume</button>
-            <button id='button3' onclick="goToRefs()">References</button>
-            <button id='button5' onclick="goToCon()">Contact Information </button>
+            <div id='button1' onclick="goToHome()">Home</div>
+            <div id='button2' onclick="goToRes()">Resume</div>
+            <div id='button3' onclick="goToRefs()">References</div>
+            <div id='button5' onclick="goToCon()">Contact Information </div>
             <script>
                 function goToHome() {
                     location.replace("/Users/lukematthews/projects/lukematthewsh.github.io/index.html")
@@ -52,13 +54,14 @@
             </p>
             <p>
            Im 19 years old and starting my career into webdevelopment and ux/ui design
-
-
-
             </p>
         </div>
         <img src='IMG_7290.jpeg'>
 
+    </div>
+    <div class = "outerContainer">
+        <div class = "info"> Info </div>
+        <div class = "notsosure">IDK</div>
     </div>
 </body>
 
